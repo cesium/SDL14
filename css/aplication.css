@@ -1,0 +1,12 @@
+.timetable{
+	max-width:75em;
+}
+
+.timetable-day{
+	color:#e5742f;
+}
+
+.timetable-hour{
+	color:#2aabc4;
+}
+
