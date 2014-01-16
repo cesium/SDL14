@@ -8,5 +8,19 @@
 
 .timetable-hour{
 	color:#2aabc4;
+	font-size: 30;
+	font-weight:bold;
+	padding-bottom: 2%;
 }
 
+.timetable-hour{
+
+}
+
+.navbar{
+	background: #ffffff;
+}
+
+nav>ul>li>h1>a{
+	color: #000000;
+}
