@@ -1,0 +1,56 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  height:100%;
+  width: 100%;
+}
+
+section{
+  height:100%;
+  width: 100%;
+}
+
+section.home{
+  background-image: url(///Users/gerente/projects/SDL14/img/di.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+section.home h1{
+  margin-top: 15%;
+  color: #FFF;
+  font-weight: 400;
+  font-size: 80px;
+  text-shadow: 2px 0 0 #000;
+}
+
+section.home h3{
+  color: #FFF;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.logos img{
+  margin-top: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.organized_by img{
+  margin-top: 100px;
+  width: 300px;
+}
+
+.top-bar{
+  border-bottom: 1px solid #000;
+  height: 60px;
+}
+
+.slide-down{
+  width: 50px;
+  position: absolute;
+  bottom: 100px;
+}
