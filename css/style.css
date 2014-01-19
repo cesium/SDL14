@@ -13,7 +13,7 @@ section{
 }
 
 section.home{
-  background-image: url(///Users/gerente/projects/SDL14/img/di.jpg);
+  background-image: url(../img/di.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
