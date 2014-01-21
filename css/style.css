@@ -26,6 +26,7 @@ section{
 section.home{
   background-image: url(../img/background.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 section.home h1{
@@ -59,19 +60,25 @@ section.home .organized_by img{
 
 section.calendar{
   background-color: #eee;
-  display: table;
-  position: absolute;
 }
 
 section.calendar h1{
   text-align: center;
   font-size: 50px;
   color: #333;
-  margin-bottom: 50px;
+  margin: 30px;
 }
 
 .slide-down{
+  background-image: url("../img/down.png");
+  background-size: cover;
   width: 50px;
-  position: fixed;
-  bottom: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+}
+
+.sd-dark{
+  background-image: url("../img/down-dark.png");
 }

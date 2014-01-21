@@ -1,0 +1,36 @@
+.cal{
+	max-width:95%;
+  font-weight: 300;
+}
+
+.cal-day{
+	color:#ec2452;
+}
+
+.cal-hour{
+	color:#ec2452;
+	font-size: 30;
+	font-weight: 500;
+	padding-bottom: 5px;
+}
+
+.cal-hour{
+
+}
+
+.navbar{
+	background: #ffffff;
+}
+
+.cal-event{
+  margin-bottom: 15px;
+  background-color: #ccc;
+  padding: 5px;
+  height: 60px;
+}
+
+.cal-event:hover{
+  background-color: #ec2452;
+  color: #eee;
+}
+
