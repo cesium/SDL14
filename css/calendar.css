@@ -7,33 +7,62 @@
 	color:#ed7950;
 }
 
-.cal-hour{
+.cal-details{
   font-family: 'ArameMonoRegular', sans-serif;
-	color:#ed7950;
+	color:#333;
 	font-size: 30;
 	font-weight: 500;
 	padding-bottom: 5px;
+  display: table;
+  width: 100%;
 }
 
 .cal-hour{
-
+  float: left;
 }
 
-.navbar{
-	background: #ffffff;
+.cal-label{
+  float: right;
+  color:#ed7950;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.cal-speaker{
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 6px;
 }
 
 .cal-event{
+  font-family: 'Lato', sans-serif;
   margin-bottom: 15px;
-  background-color: #ccc;
+  background-color: rgba(190, 183, 165, 0.15);
+  color: #333;
   padding: 5px;
-  height: 60px;
+  height: 50px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .cal-event:hover{
   background-color: #ed7950;
   color: #eee;
 }
+
+.coffeebreak{
+  background-color: #ed7950;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+.coffeebreak .cal-label{
+  color: #eee;
+  margin-right: 5px;
+}
+
 
 .cal-day b{
   color: #333;
