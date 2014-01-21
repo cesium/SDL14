@@ -5,7 +5,7 @@
 
 .cal-day{
 	color:#ed7950;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .cal-details{
@@ -20,6 +20,7 @@
 
 .cal-hour{
   float: left;
+  font-size: 13px;
 }
 
 .cal-label{
