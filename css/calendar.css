@@ -8,6 +8,7 @@
 }
 
 .cal-hour{
+  font-family: 'ArameMonoRegular', sans-serif;
 	color:#ed7950;
 	font-size: 30;
 	font-weight: 500;
@@ -34,3 +35,6 @@
   color: #eee;
 }
 
+.cal-day b{
+  color: #333;
+}

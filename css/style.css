@@ -1,12 +1,17 @@
-@font-face {font-family:"StaticBold";src:url("../fonts/Static_Bold.eot?") format("eot"),url("../fonts/Static_Bold.woff") format("woff"),url("../fonts/Static_Bold.ttf") format("truetype"),url("../fonts/Static_Bold.svg#StaticBold") format("svg");font-weight:normal;font-style:normal;}
-
+@font-face {font-family:"ArameMonoBold";src:url("../fonts/ArameMonoBold.eot?") format("eot"),url("../fonts/ArameMonoBold.woff") format("woff"),url("../fonts/ArameMonoBold.ttf") format("truetype"),url("../fonts/ArameMonoBold.svg#ArameMonoBold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"ArameMonoRegular";src:url("../fonts/ArameMonoRegular.eot?") format("eot"),url("../fonts/ArameMonoRegular.woff") format("woff"),url("../fonts/ArameMonoRegular.ttf") format("truetype"),url("../fonts/ArameMonoRegular.svg#ArameMonoRegular") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"ArameMonoThin";src:url("../fonts/ArameMonoThin.eot?") format("eot"),url("../fonts/ArameMonoThin.woff") format("woff"),url("../fonts/ArameMonoThin.ttf") format("truetype"),url("../fonts/ArameMonoThin.svg#ArameMonoThin") format("svg");font-weight:normal;font-style:normal;}
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'ArameMonoThin', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Lato', sans-serif;
+h1, h2{
+  font-family: 'ArameMonoRegular', sans-serif;
+}
+
+h3, h4, h5, h6{
+  font-family: 'ArameMonoThin', sans-serif;
 }
 
 .wrapper{
@@ -30,32 +35,47 @@ section.home{
 }
 
 section.home h1{
-  font-size: 110px;
+  font-weight: normal;
+  font-size: 120px;
   color: #eee;
 }
 
 section.home strong{
+  margin-left: 20px;
+  font-weight: normal;
   color: #ed7950;
 }
 
-section.home h3{
+section.home h4{
   color: #eee;
-  font-weight: 200;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 section.home .logos{
-  margin-top: 20px;
+  margin-top: -28px;
+  margin-left: 5px;
 }
 
 section.home .logos img{
-  height: 30px;
-  margin: 2px;
+  width: 25px;
 }
 
 section.home .organized_by img{
   margin-top: 50px;
   width: 300px;
+}
+
+section.home .dalei{
+  margin-top: -70px;
+}
+
+section.home .di{
+  margin-top: -20px;
+  color: #333;
+}
+
+section.home .date{
+  margin-top: -10px;
 }
 
 section.calendar{
