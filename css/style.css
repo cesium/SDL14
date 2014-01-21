@@ -26,12 +26,20 @@ h1{
 section{
   height:100%;
   width: 100%;
+  display: table;
 }
 
 section.home{
-  background-image: url(../img/background.jpg);
+  background: url(../img/background.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
+}
+
+@media only screen and (max-width: 320px) {
+
+  section.home{
+    background: #beb7a5;
+  }
 }
 
 section.home h1{
@@ -84,9 +92,9 @@ section.calendar{
 
 section.calendar h1{
   text-align: center;
-  font-size: 27px;
+  font-size: 35px;
   color: #333;
-  margin: 17px;
+  margin: 20px;
 }
 
 .slide-down{
