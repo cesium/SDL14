@@ -61,7 +61,7 @@ section.home .logos img{
 }
 
 section.home .organized_by img{
-  margin-top: 50px;
+  margin-top: 10%;
   width: 300px;
 }
 
@@ -84,7 +84,7 @@ section.calendar{
 
 section.calendar h1{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #333;
   margin: 20px;
 }
