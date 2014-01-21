@@ -4,11 +4,11 @@
 }
 
 .cal-day{
-	color:#ec2452;
+	color:#ed7950;
 }
 
 .cal-hour{
-	color:#ec2452;
+	color:#ed7950;
 	font-size: 30;
 	font-weight: 500;
 	padding-bottom: 5px;
@@ -30,7 +30,7 @@
 }
 
 .cal-event:hover{
-  background-color: #ec2452;
+  background-color: #ed7950;
   color: #eee;
 }
 
