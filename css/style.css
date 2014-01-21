@@ -1,5 +1,12 @@
+@font-face {font-family:"StaticBold";src:url("../fonts/Static_Bold.eot?") format("eot"),url("../fonts/Static_Bold.woff") format("woff"),url("../fonts/Static_Bold.ttf") format("truetype"),url("../fonts/Static_Bold.svg#StaticBold") format("svg");font-weight:normal;font-style:normal;}
+
+
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lato', sans-serif;
 }
 
 .wrapper{
@@ -13,34 +20,38 @@ section{
 }
 
 section.home{
-  background-image: url(../img/di.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
-  text-align: center;
 }
 
 section.home h1{
-  margin-top: 15%;
-  color: #FFF;
-  font-weight: 400;
-  font-size: 80px;
-  text-shadow: 2px 0 0 #000;
+  font-weight: 900;
+  color: #eee;
+  font-size: 110px;
+}
+
+section.home strong{
+  color: #333;
 }
 
 section.home h3{
-  color: #FFF;
+  color: #eee;
   font-weight: 100;
   font-size: 40px;
 }
 
+.logos{
+  margin-top: 20px;
+}
+
 .logos img{
-  margin-top: 30px;
   height: 30px;
   margin: 2px;
 }
 
 .organized_by img{
-  margin-top: 100px;
+  margin-top: 50px;
   width: 300px;
 }
 
@@ -51,6 +62,6 @@ section.home h3{
 
 .slide-down{
   width: 50px;
-  position: absolute;
-  bottom: 100px;
+  position: fixed;
+  bottom: 30px;
 }
