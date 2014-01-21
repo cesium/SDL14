@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6{
   width: 100%;
 }
 
+h1{
+  font-weight: 900;
+}
+
 section{
   height:100%;
   width: 100%;
@@ -22,42 +26,48 @@ section{
 section.home{
   background-image: url(../img/background.jpg);
   background-size: cover;
-  background-position: center;
 }
 
 section.home h1{
-  font-weight: 900;
-  color: #eee;
   font-size: 110px;
+  color: #eee;
 }
 
 section.home strong{
-  color: #333;
+  color: #ec2452;
 }
 
 section.home h3{
   color: #eee;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 40px;
 }
 
-.logos{
+section.home .logos{
   margin-top: 20px;
 }
 
-.logos img{
+section.home .logos img{
   height: 30px;
   margin: 2px;
 }
 
-.organized_by img{
+section.home .organized_by img{
   margin-top: 50px;
   width: 300px;
 }
 
-.top-bar{
-  border-bottom: 1px solid #000;
-  height: 60px;
+section.calendar{
+  background-color: #eee;
+  display: table;
+  position: absolute;
+}
+
+section.calendar h1{
+  text-align: center;
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 50px;
 }
 
 .slide-down{

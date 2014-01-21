@@ -1,19 +1,22 @@
-.timetable{
+.cal{
 	max-width:75em;
+  font-weight: 300;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.timetable-day{
-	color:#e5742f;
+.cal-day{
+	color:#ec2452;
 }
 
-.timetable-hour{
-	color:#2aabc4;
+.cal-hour{
+	color:#ec2452;
 	font-size: 30;
-	font-weight:bold;
-	padding-bottom: 2%;
+	font-weight: 500;
+	padding-bottom: 5px;
 }
 
-.timetable-hour{
+.cal-hour{
 
 }
 
@@ -21,6 +24,19 @@
 	background: #ffffff;
 }
 
+.cal-event{
+  margin-bottom: 15px;
+  background-color: #ccc;
+  padding: 5px;
+  height: 60px;
+}
+
+.cal-event:hover{
+  background-color: #ec2452;
+  color: #eee;
+}
+
 nav>ul>li>h1>a{
 	color: #000000;
 }
+
