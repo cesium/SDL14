@@ -20,6 +20,9 @@ h3, h4, h5, h6{
 }
 
 h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0 30px 0;
   font-weight: 900;
 }
 
@@ -32,19 +35,13 @@ section{
 section.home{
   background: url(../img/background.jpg);
   background-size: cover;
-  background-position: right;
-}
-
-@media only screen and (max-width: 320px) {
-
-  section.home{
-    background: #beb7a5;
-  }
+  background-position: center;
 }
 
 section.home h1{
+  text-align: left;
   font-weight: normal;
-  font-size: 7em;
+  font-size: 8em;
   color: #eee;
 }
 
@@ -59,6 +56,11 @@ section.home h4{
   font-size: 25px;
 }
 
+section.home .infos{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
 section.home .logos{
   margin-top: -28px;
   margin-left: 5px;
@@ -69,7 +71,7 @@ section.home .logos img{
 }
 
 section.home .organized_by img{
-  margin-top: 10%;
+  margin-top: 3%;
   width: 300px;
 }
 
@@ -91,11 +93,33 @@ section.calendar{
 }
 
 section.calendar h1{
-  text-align: center;
-  font-size: 35px;
   color: #333;
-  margin: 20px;
 }
+
+section.workshops{
+  background-color: rgba(237, 121, 80, 1);
+}
+
+section.workshops h1{
+  color: #eee;
+}
+
+section.lounge{
+  background-color: rgba(237, 121, 80, 1);
+}
+
+section.lounge h1{
+  color: #eee;
+}
+
+section.infos{
+  background-color: #333;
+}
+
+section.infos h1{
+  color: #eee;
+}
+
 
 .slide-down{
   background-image: url("../img/down.png");
