@@ -1,18 +1,61 @@
-section.monday{
+section.orange{
   background-color: #ed7950;
 }
 
-section.monday h1{
+section.orange h1{
   color: #eee;
 }
 
-section.monday strong{
+section.orange strong{
+  color: #333;
+}
+
+section.grey{
+  background-color: #eee
+}
+
+section.grey h1{
+  color: #ed7950;
+}
+
+section.grey strong{
+  color: #333;
+}
+
+section.orange .activity{
+  background-color: #eee;
+}
+
+section.grey .activity{
+  background-color: #ed7950;
+}
+
+section.orange .activity h5{
+  color: #ed7950;
+}
+
+section.grey .activity h5{
+  color: #333;
+}
+
+section.grey .activity h3{
+  color: #eee;
+}
+
+section.grey .activity{
+  color: #eee;
+}
+
+section.orange .activity .act-details{
+  color: #ed7950;
+}
+
+section.grey .activity .act-details{
   color: #333;
 }
 
 .activity{
   font-weight: 100;
-  background-color: #eee;
   padding: 15px;
   display: table;
   margin-bottom: 30px;
@@ -26,7 +69,6 @@ section.monday strong{
 }
 
 .activity h5{
-  color: #ed7950;
   font-family: 'Lato', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
@@ -45,7 +87,6 @@ section.monday strong{
 
 .activity .act-details{
   font-family: 'ArameMonoThin', sans-serif;
-  color: #ed7950;
   display: table;
   width: 100%;
 }
