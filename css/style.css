@@ -1,3 +1,7 @@
+@import url("sections/home.css");
+@import url("sections/calendar.css");
+@import url("sections/activities.css");
+
 @font-face {font-family:"ArameMonoBold";src:url("../fonts/ArameMonoBold.eot?") format("eot"),url("../fonts/ArameMonoBold.woff") format("woff"),url("../fonts/ArameMonoBold.ttf") format("truetype"),url("../fonts/ArameMonoBold.svg#ArameMonoBold") format("svg");font-weight:normal;font-style:normal;}
 @font-face {font-family:"ArameMonoRegular";src:url("../fonts/ArameMonoRegular.eot?") format("eot"),url("../fonts/ArameMonoRegular.woff") format("woff"),url("../fonts/ArameMonoRegular.ttf") format("truetype"),url("../fonts/ArameMonoRegular.svg#ArameMonoRegular") format("svg");font-weight:normal;font-style:normal;}
 @font-face {font-family:"ArameMonoThin";src:url("../fonts/ArameMonoThin.eot?") format("eot"),url("../fonts/ArameMonoThin.woff") format("woff"),url("../fonts/ArameMonoThin.ttf") format("truetype"),url("../fonts/ArameMonoThin.svg#ArameMonoThin") format("svg");font-weight:normal;font-style:normal;}
@@ -6,11 +10,7 @@ body{
   font-family: 'ArameMonoThin', sans-serif;
 }
 
-h1, h2{
-  font-family: 'ArameMonoRegular', sans-serif;
-}
-
-h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
   font-family: 'ArameMonoThin', sans-serif;
 }
 
@@ -31,95 +31,6 @@ section{
   width: 100%;
   display: table;
 }
-
-section.home{
-  background: url(../img/background.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-section.home h1{
-  text-align: left;
-  font-weight: normal;
-  font-size: 8em;
-  color: #eee;
-}
-
-section.home strong{
-  margin-left: 20px;
-  font-weight: normal;
-  color: #ed7950;
-}
-
-section.home h4{
-  color: #eee;
-  font-size: 25px;
-}
-
-section.home .infos{
-  margin-left: 5%;
-  margin-top: 5%;
-}
-
-section.home .logos{
-  margin-top: -28px;
-  margin-left: 5px;
-}
-
-section.home .logos img{
-  width: 25px;
-}
-
-section.home .organized_by img{
-  margin-top: 3%;
-  width: 300px;
-}
-
-section.home .dalei{
-  margin-top: -70px;
-}
-
-section.home .di{
-  margin-top: -20px;
-  color: #333;
-}
-
-section.home .date{
-  margin-top: -10px;
-}
-
-section.calendar{
-  background-color: #eee;
-}
-
-section.calendar h1{
-  color: #333;
-}
-
-section.workshops{
-  background-color: rgba(237, 121, 80, 1);
-}
-
-section.workshops h1{
-  color: #eee;
-}
-
-section.lounge{
-  background-color: rgba(237, 121, 80, 1);
-}
-
-section.lounge h1{
-  color: #eee;
-}
-
-section.infos{
-  background-color: #333;
-}
-
-section.infos h1{
-  color: #eee;
-}
-
 
 .slide-down{
   background-image: url("../img/down.png");
