@@ -45,3 +45,7 @@ section{
 .sd-dark{
   background-image: url("../img/down-dark.png");
 }
+
+.grey a{
+  color: #333;
+}
