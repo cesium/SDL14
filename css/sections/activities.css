@@ -85,6 +85,10 @@ section.grey .activity .act-details{
   float: right;
 }
 
+.grey .activity .applications{
+  color: #333;
+}
+
 .activity .act-details{
   font-family: 'ArameMonoThin', sans-serif;
   display: table;
