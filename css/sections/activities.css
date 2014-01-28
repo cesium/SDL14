@@ -1,3 +1,12 @@
+section.dark-grey{
+  background-color: #333
+}
+
+section.dark-grey h1, h2{
+  text-align: center;
+  color: #eee;
+}
+
 section.orange{
   background-color: #ed7950;
 }
@@ -14,7 +23,7 @@ section.grey{
   background-color: #eee
 }
 
-section.grey h1{
+section.grey h1, h2{
   color: #ed7950;
 }
 
@@ -114,4 +123,8 @@ section.grey .activity .act-details{
 
 .act-coffeebreak h3{
   color: #eee;
+}
+
+.partners img{
+
 }
