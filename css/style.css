@@ -1,6 +1,9 @@
 @import url("sections/home.css");
 @import url("sections/calendar.css");
 @import url("sections/activities.css");
+@import url("sections/sponsors.css");
+@import url("sections/about.css");
+@import url("sections/maps.css");
 
 @font-face {font-family:"ArameMonoBold";src:url("../fonts/ArameMonoBold.eot?") format("eot"),url("../fonts/ArameMonoBold.woff") format("woff"),url("../fonts/ArameMonoBold.ttf") format("truetype"),url("../fonts/ArameMonoBold.svg#ArameMonoBold") format("svg");font-weight:normal;font-style:normal;}
 @font-face {font-family:"ArameMonoRegular";src:url("../fonts/ArameMonoRegular.eot?") format("eot"),url("../fonts/ArameMonoRegular.woff") format("woff"),url("../fonts/ArameMonoRegular.ttf") format("truetype"),url("../fonts/ArameMonoRegular.svg#ArameMonoRegular") format("svg");font-weight:normal;font-style:normal;}

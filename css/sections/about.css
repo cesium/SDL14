@@ -1,0 +1,14 @@
+section.about{
+  background: url(../../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section.about .organized_by img{
+  width: 300px;
+}
+
+section.about .infos{
+  margin-left: 5%;
+  margin-top: 3%;
+}

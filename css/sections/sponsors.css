@@ -1,0 +1,53 @@
+.sponsors .media{
+	width: 100%;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.sponsors .small-media{
+	width: 100%;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.codangel{
+	background-image:url('../../img/logos/codangel.png');
+}
+.microsoft{
+	background-image:url('../../img/logos/microsoft.png');
+}
+.pt{
+	background-image:url('../../img/logos/pt.png');
+}
+.gb{
+	background-image:url('../../img/logos/gb.png');
+}
+.eurotux{
+	background-image:url('../../img/logos/eurotux.png');
+}
+.beeverycreative{
+	background-image:url('../../img/logos/beeverycreative.png');
+}
+.inmotion{
+	background-image:url('../../img/logos/inmotion.png');
+}
+.sardinha{
+	background-image:url('../../img/logos/logo_sardinhabiba.png');
+}
+.cristorei{
+	background-image:url('../../img/logos/cristorei.png');
+}
+.uminho{
+	background-image:url('../../img/logos/uminho.png');
+}
+.eeum{
+	background-image:url('../../img/logos/eeum.png');
+}
+.di{
+	background-image:url('../../img/logos/di.png');
+}
+.redbull{
+	background-image:url('../../img/logos/redbull.png');
+}
