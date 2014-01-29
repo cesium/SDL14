@@ -13,6 +13,8 @@
     <script src="js/modernizr.js"></script>
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
 </head>
 <script>
 $(document).ready(function() {
@@ -33,19 +35,20 @@ $(document).ready(function() {
                         <h1 class="dalei">DA
                             <strong>LEI</strong>
                         </h1>
-                        <h4 class="di">Departamento de Informática</h3>
-                            <h4 class="date">15 a 22 de Fevereiro</h3>
-                                <div class="organized_by">
-                                    <img src="img/cesium.png">
-                                </div>
-                                <div class="logos">
-                                    <img src="img/icon-di.png">
-                                    <img src="img/icon-ee.png">
-                                    <img src="img/icon-um.png">
-                                </div>
+                        <h4 class="di">Departamento de Informática</h4>
+                        <h4 class="date">15 a 22 de Fevereiro</h4>
+                        <div class="organized_by">
+                            <img src="img/cesium.png">
+                        </div>
+                        <div class="logos">
+                            <img src="img/icon-di.png">
+                            <img src="img/icon-ee.png">
+                            <img src="img/icon-um.png">
+                        </div>
                     </div>
                 </div>
             </section>
+
             <section class="calendar">
                 <div class="row cal">
                     <h1>CALENDÁRIO</h1>
@@ -459,8 +462,102 @@ $(document).ready(function() {
                     </div>
                 </div>
             </section>
+            <section class="tuesday orange">
+                <div class="row cal">
+                    <h1>TERÇA-FEIRA
+                        <strong>/18</strong>
+                    </h1>
+                    <div class="large-12 columns">
+                        <div class="large-3 columns">
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">14H</div>
+                                    <div class="act-label">Discussão</div>
+                                </div>
+                                <h3>Reunião Geral da LEI</h3>
+                                <h5></h5>
+                                <p>
+                                    Reunião para debater o estado atual do curso. Gostavamos de contar com presença de todos os alunos, para podermos ouvir a opinião de cada um e assim ajudar a melhorar a licenciatura. A reunião contará com a presença da direção de curso.
+                                </p>
+                            </div>
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">16H</div>
+                                    <div class="act-label">Concurso</div>
+                                </div>
+                                <h3>Time Trial Talks</h3>
+                                <h5></h5>
+                                <p>
+                                    Concurso aberto a toda a comunidade académica em que cada concorrente é desafiado a fazer uma micro-apresentação com no máximo 5 minutos sobre um tema à sua escolha. Haverá um prémio ainda a ser anunciado para o vencedor.
+                                </p>
+                                <a class="applications" href="https://cesium.typeform.com/to/FIHfLe">Inscreve-te</a>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">17H</div>
+                                    <div class="act-label">Workshop</div>
+                                </div>
+                                <div class="media">
+                                    <img src="img/workshops/android.png">
+                                </div>
+                                <h3>Desenvolvimento Android</h3>
+                                <h5>Rui Couto</h5>
+                                <p>
+                                    Workshop sobre desenvolvimento em Android que começará com uma pequena introdução teórica à framework <b>Android</b>, seguindo-se uma sessão prática de desenvolvimento de uma aplicação simples para consolidar os conhecimentos introduzidos.
+                                    <br>Pedimos que cada participante se faça acompanhar do seu computador pessoal com o <a href="http://developer.android.com/sdk/index.html?utm_source=weibolife#">Android SDK </a> instalado.
+                                </p>
+                                <a class="applications" href="https://cesium.typeform.com/to/uDMV2d">Inscreve-te</a>
+                            </div>
 
-
+                            <div class="large-3 columns">
+                                <div class="activity">
+                                    <div class="act-details">
+                                        <div class="act-hour">21H</div>
+                                        <div class="act-label">MeetUp</div>
+                                    </div>
+                                    <div class="media">
+                                        <img src="img/workshops/minhorb.png">
+                                    </div>
+                                    <h3>Minho.RB</h3>
+                                    <h5></h5>
+                                    <p>
+                                        A <b>Minho Ruby Brigade</b> é um Meetup que se costuma realizar na última Quinta-feira de cada mês. Estes encontros informais de aficionados de Ruby tem como objectivo a partilha e debate de experiências e conhecimentos entre os participantes.
+                                        <br>Não percas esta oportunidade de te juntares a esta comunidade entusiasta para partilhar experiências e aprender mais sobre Ruby.
+                                        <br>O conteúdo desta edição está ainda por definir mas podes sempre contribuir propondo temas no site da <a href="http://www.meetup.com/Minho-rb/">Minho.RB</a>.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="large-3 columns">
+                                <div class="activity">
+                                    <div class="act-details">
+                                        <div class="act-hour">21H30</div>
+                                        <div class="act-label">Lounge</div>
+                                    </div>
+                                    <h3>Rally das Tascas</h3>
+                                    <h5>Comissão de Festas</h5>
+                                    <p>
+                                        Como não poderia deixar de ser, na <b>Semana da LEI</b> temos um desafio para ti. Junta 4 amigos e inscreve-te no Rally das Tascas. A tarefa de cada grupo será passar pelos bares indicados, terminando no <b>BA</b>. A equipa que chegar primeiro será a equipa vencedora.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="large-3 columns">
+                                <div class="activity">
+                                    <div class="act-details">
+                                        <div class="act-hour">00H</div>
+                                        <div class="act-label">Lounge</div>
+                                    </div>
+                                    <h3>Festa no Bar Académico</h3>
+                                    <h5>Comissão de Festas</h5>
+                                    <p>
+                                        Com o intuito de descontrair depois deste dia de aprendizagem iremos proporcionar-te uma noite de diversão no Bar Académico.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
             <!--      Terça feira        -->
             <section class="tuesday orange">
                 <div class="row cal">
@@ -728,49 +825,54 @@ $(document).ready(function() {
             <!--Fim de Quinta-Feira-->
 
             <!-- Sexta-Feira-->
-          <section class="friday grey">
-          <div class="row cal">
-            <h1>Sexta-FEIRA<strong>/21</strong></h1>
-            <div class="large-12 columns">
-              <div class="large-3 columns">
-                <div class="activity">
-                  <div class="act-details">
-                    <div class="act-hour">10H</div>
-                    <div class="act-label">Torneio</div>
-                  </div>
-                  <h3>Robocode</h3>
-                  <h5></h5>
-                  <p>
-                    Robocode é um torneio, cujo objectivo é codificar um robô e derrotar os seus oponentes.
-                    Terás de escrever a inteligência do teu robô, programando as suas reações aos diversos acontecimentos de uma batalha.
-                  </p>
-                </div>
-                <div class="activity">
-                  <div class="act-details">
-                    <div class="act-hour">14H</div>
-                    <div class="act-label">Apresentação</div>
-                  </div>
-                  <h3>Apresentações Empresas</h3>
-                  <h5>CODANGEL, GROUP BUDDIES, PT INOVAÇÃO E EUROTUX</h5>
-                  <p>
-                    Oportunidade ideal para entrar em contacto com empresas de referência em informática. Poderás conhecer como trabalham, o que fazem e que histórias os seus trabalhadores têm para contar. 
-                  </p>
-                </div>
-              </div>
-              <div class="large-3 columns">
-                <div class="activity">
-                  <div class="act-details">
-                    <div class="act-hour">16H</div>
-                    <div class="act-label">Workshop</div>
-                  </div>
-                  <div class="media" style="margin:26px 0px"><img src="img/workshops/cocos2d.png"></div>
-                  <h3>Desenvolvimento de Jogos com Cocos2D</h3>
-                  <h5>Codangel</h5>
-                  <p>
-                    Com o auxílio da <b>Codangel</b>, neste este workshop terás a oportunidade de aprender o básico para desenvolver um jogo para dispositivos móveis. <br> Durante a sessão de duas horas, irás também poder criar um jogo semelhante a <i>Angry Birds</i> para a plataforma <i>iOS</i>. <br>Os participantes deverão fazer-se acompanhar de um portátil com <a href="https://developer.apple.com/xcode/">XCode</a> instalado.
-                  </p>
-                  <a class="applications" href="https://cesium.typeform.com/to/hjryDg">Inscreve-te</a>                  
-                </div>
+            <section class="friday grey">
+                <div class="row cal">
+                    <h1>Sexta-FEIRA
+                        <strong>/21</strong>
+                    </h1>
+                    <div class="large-12 columns">
+                        <div class="large-3 columns">
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">10H</div>
+                                    <div class="act-label">Torneio</div>
+                                </div>
+                                <h3>Robocode</h3>
+                                <h5></h5>
+                                <p>
+                                    Robocode é um torneio, cujo objectivo é codificar um robô e derrotar os seus oponentes. Terás de escrever a inteligência do teu robô, programando as suas reações aos diversos acontecimentos de uma batalha.
+                                </p>
+                            </div>
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">14H</div>
+                                    <div class="act-label">Apresentação</div>
+                                </div>
+                                <h3>Apresentações Empresas</h3>
+                                <h5>CODANGEL, GROUP BUDDIES, PT INOVAÇÃO E EUROTUX</h5>
+                                <p>
+                                    Oportunidade ideal para entrar em contacto com empresas de referência em informática. Poderás conhecer como trabalham, o que fazem e que histórias os seus trabalhadores têm para contar.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="activity">
+                                <div class="act-details">
+                                    <div class="act-hour">16H</div>
+                                    <div class="act-label">Workshop</div>
+                                </div>
+                                <div class="media" style="margin:26px 0px">
+                                    <img src="img/workshops/cocos2d.png">
+                                </div>
+                                <h3>Desenvolvimento de Jogos com Cocos2D</h3>
+                                <h5>Codangel</h5>
+                                <p>
+                                    Com o auxílio da <b>Codangel</b>, neste este workshop terás a oportunidade de aprender o básico para desenvolver um jogo para dispositivos móveis.
+                                    <br>Durante a sessão de duas horas, irás também poder criar um jogo semelhante a <i>Angry Birds</i> para a plataforma <i>iOS</i>.
+                                    <br>Os participantes deverão fazer-se acompanhar de um portátil com <a href="https://developer.apple.com/xcode/">XCode</a> instalado.
+                                </p>
+                                <a class="applications" href="https://cesium.typeform.com/to/hjryDg">Inscreve-te</a>
+                            </div>
                         </div>
                         <div class="large-3 columns">
                             <div class="activity">
@@ -817,9 +919,85 @@ $(document).ready(function() {
                     </div>
                 </div>
             </section>
+            <section class="sponsors dark-grey">
+                <h1>Parceiros</h1>
+                <h2>Apoios</h2>
+                <div class="large-12 columns partners">
+                    <div class="large-4 small-centered columns">
+                        <div class="large-4 columns">
+                            <div class="small-media uminho"></div>
+                        </div>
+                        <div class="large-4 columns">
+                            <div class="small-media eeum"></div>
+                        </div>
+                        <div class="large-4 columns">
+                            <div class="small-media di"></div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Patrocínios</h2>
+                <div class="large-12 columns">
+                    <div class="large-10 small-centered columns">
+                        <div class="large-3 columns">
+                            <div class="media codangel"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media microsoft"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media pt"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media gb"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media eurotux"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media beeverycreative"></div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="media inmotion"></div>
+                        </div>
+                        <div class="large-6 small-centered columns">
+                            <div class="large-4 columns">
+                                <div class="media sardinha"></div>
+                            </div>
+                            <div class="large-4 columns">
+                                <div class="media redbull"></div>
+                            </div>
+                            <div class="large-4 columns">
+                                <div class="media cristorei"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="page_container">
+                    <div class="infos">
+                        <h3>Organização</h3>
+                        <div class="organized_by">
+                            <img src="img/cesium.png">
+                        </div>
+                        <h4>Contactos</h4>
+                        <div class="contacts">
+                            <h5><i class="foundicon-globe"></i>&nbsp <a href="http://www.cesium.di.uminho.pt">www.cesium.uminho.pt</a>
+                            </h5>
+                            <h5><i class="foundicon-mail"></i>&nbsp <a href="mailto:cesium@di.uminho.pt">cesium@di.uminho.pt</a>
+                            </h5>
+                            <h5><i class="foundiconsocial-facebook"></i>&nbsp <a href="http://wwww.facebook.com/cesiumUM">cesiumUM</a>
+                            </h5>
+                        </div>
+                        <h5>Localização</h5>
+                        <div id="map-canvas"></div>
 
+                    </div>
+                </div>
+            </section>
+
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
