@@ -15,6 +15,7 @@
     <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script type="text/javascript" src="js/maps.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
 </head>
 <script>
 $(document).ready(function() {
@@ -55,10 +56,10 @@ $(document).ready(function() {
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>SÁBADO</b>/15</h4>
                             <div class="cal-details">
-                                <div class="cal-hour">14h ás 24h</div>
+                                <div class="cal-hour">10 às 12h</div>
                                 <div class="cal-label">Social</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-saturday">
                                 <div class="cal-subject">Improve Braga</div>
                             </div>
                             <h4 class="cal-day"><b>SÁBADO</b>/22</h4>
@@ -66,7 +67,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">10h ás 12h</div>
                                 <div class="cal-label">Social</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-saturday">
                                 <div class="cal-subject">CoderDojo Minho</div>
                             </div>
                         </div>
@@ -76,7 +77,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Apresentação</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Sessão de Abertura</div>
                             </div>
@@ -84,7 +85,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">15h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker">PT Inovação</div>
                                 <div class="cal-subject">Data Center PT</div>
                             </div>
@@ -92,7 +93,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker">Microsoft</div>
                                 <div class="cal-subject">Windows Mobile</div>
                             </div>
@@ -103,7 +104,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">17h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker">CodAngel</div>
                                 <div class="cal-subject">Desenvolvimento para iOS</div>
                             </div>
@@ -111,7 +112,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Meetup</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Hackers and Founders Portugal</div>
                             </div>
@@ -119,7 +120,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">22h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-monday">
                                 <div class="cal-speaker">Comissão de festas</div>
                                 <div class="cal-subject">Jogos e Festa no BA Braga</div>
                             </div>
@@ -130,7 +131,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Discussão</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Reunião Geral da LEI</div>
                             </div>
@@ -138,7 +139,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Concurso</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Time Trial Talks</div>
                             </div>
@@ -149,7 +150,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">17h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Rui Couto</div>
                                 <div class="cal-subject">Desenvolvimento Android</div>
                             </div>
@@ -157,7 +158,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Meetup</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Minho.RB</div>
                             </div>
@@ -165,7 +166,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">21h30</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Rally das Tascas</div>
                             </div>
@@ -173,7 +174,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">00h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Festa no Bar Académico</div>
                             </div>
@@ -184,7 +185,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">9h</div>
                                 <div class="cal-label">Divulgação</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">LEI RoadShow</div>
                             </div>
@@ -192,7 +193,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Seminário</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Eng. António Murta, Eng. Carlos Oliveira e Prof. Nestor</div>
                                 <div class="cal-subject">Seminários à la LESI</div>
                             </div>
@@ -200,7 +201,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">15h30</div>
                                 <div class="cal-label">Social</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Corrida Social no Campus de Gualtar</div>
                             </div>
@@ -208,7 +209,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">19h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Final UMinho Cup</div>
                             </div>
@@ -216,7 +217,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Arraial da Semana da LEI</div>
                             </div>
@@ -224,7 +225,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">00h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Festa no Sardinha Biba</div>
                             </div>
@@ -235,7 +236,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-thursday">
                                 <div class="cal-speaker">GroupBuddies</div>
                                 <div class="cal-subject">Desenvolvimento Angular.js</div>
                             </div>
@@ -243,7 +244,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-thursday">
                                 <div class="cal-speaker">InMotion</div>
                                 <div class="cal-subject">Raspberry &amp; Arduino</div>
                             </div>
@@ -254,7 +255,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">18h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-thursday">
                                 <div class="cal-speaker">Be Very Creative</div>
                                 <div class="cal-subject">Impressoras 3D</div>
                             </div>
@@ -262,7 +263,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">22h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-thursday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">CeSIUM Movies @ Dieci Bar</div>
                             </div>
@@ -273,7 +274,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">10h</div>
                                 <div class="cal-label">Torneio</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Robocode</div>
                             </div>
@@ -281,7 +282,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Apresentação</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-friday">
                                 <div class="cal-speaker">CodAngel, Group Buddies, PT Inovação e Eurotux</div>
                                 <div class="cal-subject">Apresentações Empresas</div>
                             </div>
@@ -289,7 +290,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-friday">
                                 <div class="cal-speaker">CodAngel</div>
                                 <div class="cal-subject">Desenvolvimento Jogos com Cocus2D</div>
                             </div>
@@ -300,7 +301,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">18h</div>
                                 <div class="cal-label">Torneio</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Jogos Eletrónicos</div>
                             </div>
@@ -308,7 +309,7 @@ $(document).ready(function() {
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
-                            <div class="cal-event">
+                            <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Jantar Oficial e Encerramento da Semana da LEI</div>
                             </div>
@@ -438,10 +439,10 @@ $(document).ready(function() {
                                 <div class="media">
                                     <img src="img/workshops/hackersfounders.png">
                                 </div>
-                                <h3>Hackers and Founders</h3>
+                                <h3><a href="http://www.meetup.com/Hackers-Founders-Portugal/">Hackers and Founders</a></h3>
                                 <h5></h5>
                                 <p>
-                                    A HF é já a maior comunidade de empreendedorismo tecnológico do planeta, com mais de 27.000 empreendedores, gestores e os mais influentes capitalistas de risco. Nesta edição iremos contar com a presença do C. WE O. da CodAngel <b>Jorge Saraiva</b> e do <b>Bruno Silva</b> da InnovMark.
+                                    A HF é já a maior comunidade de empreendedorismo tecnológico do planeta, com mais de 27.000 empreendedores, gestores e os mais influentes capitalistas de risco. Nesta edição iremos contar com a presença do C. WE O. da CodAngel <b><a href="http://www.linkedin.com/profile/view?id=14943995&locale=en_US&trk=tyah&trkInfo=tas%3AJorge%20Saraiva%2Cidx%3A1-1-1">Jorge Saraiva</a></b> e do <b><a href="pt.linkedin.com/in/brunosilva">Bruno Silva</a></b> da InnovMark.
                                 </p>
                             </div>
                         </div>
@@ -523,7 +524,7 @@ $(document).ready(function() {
                                 <div class="media">
                                     <img src="img/workshops/minhorb.png">
                                 </div>
-                                <h3>Minho.RB</h3>
+                                <h3><a href="http://www.meetup.com/Minho-rb/">Minho.RB</a></h3>
                                 <h5></h5>
                                 <p>
                                     A <b>Minho Ruby Brigade</b> é um Meetup que se costuma realizar na última Quinta-feira de cada mês. Estes encontros informais de aficionados de Ruby tem como objectivo a partilha e debate de experiências e conhecimentos entre os participantes.
@@ -676,7 +677,7 @@ $(document).ready(function() {
                                 <h5>GROUPBUDDIES</h5>
                                 <p>
                                     Angular.js é uma <i>framework open-source</i> escrita em JavaScript e desenvolvida pela Google que permite a criação de aplicações web dinâmicas direccionadas para o cliente <i>(client-side)</i>. O foque desta passa por adicionar poder expressivo às páginas HTML que todos conhecemos, fazendo jus ao seu lema "Enhanced HTML Web Apps".
-                                    <br/>Assim, será <b>Ronaldo Sousa</b>, da <b>Group Buddies</b>, o responsável por dar a conhecer esta nova <i>framework</i> a todos os <i>web developers</i> desejosos por aumentar o seu conhecimento.
+                                    Assim, será <b><a href="pt.linkedin.com/in/ronaldofsousa">Ronaldo Sousa</a></b>, da <b><a href="http://www.groupbuddies.com/">Group Buddies</a></b>, o responsável por dar a conhecer esta nova <i>framework</i> a todos os <i>web developers</i> desejosos por aumentar o seu conhecimento.
                                 </p>
                             </div>
                         </div>
@@ -689,7 +690,7 @@ $(document).ready(function() {
                                 <h3>Arduino &amp; Raspberry Pi</h3>
                                 <h5>INMOTION</h5>
                                 <p>
-                                    A <b>InMotion</b> vem dar a conhecer estes dois micro-dispositivos que estão a revolucionar o mundo da tecnologia quer pelo seu tamanho, quer pelo seu custo, quer pelo leque de funcionalidades oferecidas. Serão expostos, também, alguns dos inúmeros projectos DIY (<i>Do It Yourself</i>) levados a cabo pela comunidade devota a estes equipamentos. Os participantes terão, naturalmente, a oportunidade de utilizar os dispositivos.
+                                    A <b><a href="http://inmotion.pt/store/">InMotion</a></b> vem dar a conhecer estes dois micro-dispositivos que estão a revolucionar o mundo da tecnologia quer pelo seu tamanho, quer pelo seu custo, quer pelo leque de funcionalidades oferecidas. Serão expostos, também, alguns dos inúmeros projectos DIY (<i>Do It Yourself</i>) levados a cabo pela comunidade devota a estes equipamentos. Os participantes terão, naturalmente, a oportunidade de utilizar os dispositivos.
                                 </p>
                                 <a class="applications" href="https://cesium.typeform.com/to/V3R8Bc">Inscreve-te</a>
                             </div>
@@ -706,7 +707,8 @@ $(document).ready(function() {
                                 <h3>Impressoras 3D</h3>
                                 <h5>BEEVERYCREATIVE</h5>
                                 <p>
-                                    Nesta sessão, a empresa <b>BeeVeryCreative</b> procurará explicar o fenómeno da impressão 3D e a arte que se consegue obter através desta inovação, apresentando alguns dos trabalhos desenvolvidos por esta. No evento estarão expostas impressoras 3D e, com o decorrer deste, será possível assistir <i>in loco</i> à impressão de moldes pré-definidos.
+                                    Nesta sessão, a empresa <b><a href="https://www.beeverycreative.com/">BeeVeryCreative</a></b> procurará explicar o fenómeno da impressão 3D e a arte que se consegue obter através desta inovação, apresentando alguns dos trabalhos desenvolvidos por esta.
+                                    No evento estarão expostas impressoras 3D e, com o decorrer deste, será possível assistir <i>in loco</i> à impressão de moldes pré-definidos.
                                 </p>
                             </div>
                         </div>
@@ -752,7 +754,7 @@ $(document).ready(function() {
                                     <div class="act-label">Apresentação</div>
                                 </div>
                                 <h3>Apresentações Empresas</h3>
-                                <h5>CODANGEL, GROUP BUDDIES, PT INOVAÇÃO E EUROTUX</h5>
+                                <h5><a href="http://www.codangel.com/">CODANGEL</a>, <a href="http://www.groupbuddies.com/">GROUP BUDDIES</a>, <a href="http://www.ptinovacao.pt/en/">PT INOVAÇÃO</a> E <a href="http://eurotux.com/">EUROTUX</a></h5>
                                 <p>
                                     Oportunidade ideal para entrar em contacto com empresas de referência em informática. Poderás conhecer como trabalham, o que fazem e que histórias os seus trabalhadores têm para contar.
                                 </p>
@@ -770,7 +772,7 @@ $(document).ready(function() {
                                 <h3>Desenvolvimento de Jogos com Cocos2D</h3>
                                 <h5>Codangel</h5>
                                 <p>
-                                    Com o auxílio da <b>Codangel</b>, neste este workshop terás a oportunidade de aprender o básico para desenvolver um jogo para dispositivos móveis.
+                                    Com o auxílio da <b><a href="http://www.codangel.com/">Codangel</a></b>, neste este workshop terás a oportunidade de aprender o básico para desenvolver um jogo para dispositivos móveis.
                                     <br>Durante a sessão de duas horas, irás também poder criar um jogo semelhante a <i>Angry Birds</i> para a plataforma <i>iOS</i>.
                                     <br>Os participantes deverão fazer-se acompanhar de um portátil com <a href="https://developer.apple.com/xcode/">XCode</a> instalado.
                                 </p>
