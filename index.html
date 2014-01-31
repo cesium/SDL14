@@ -19,10 +19,14 @@
 </head>
 <script>
 $(document).ready(function() {
+    var min_width = 1600;
     $(".main").onepage_scroll({
         sectionContainer: "section",
-        responsiveFallback: 1400
+        responsiveFallback: min_width
     });
+    if(window.innerWidth > min_width) {
+        $(".day_link_section").remove();
+    }
 });
 </script>
 
@@ -59,16 +63,20 @@ $(document).ready(function() {
                                 <div class="cal-hour">10h ás 12h</div>                                
                                 <div class="cal-label">Social</div>
                             </div>
+                            <a class="day_link" href="#saturday_link">
                             <div class="cal-event act-saturday">
                                 <div class="cal-subject">CoderDojo Minho</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">14h às 24h</div>
                                 <div class="cal-label">Social</div>
                             </div>
+                            <a class="day_link" href="#saturday_link">
                             <div class="cal-event act-saturday">
                                 <div class="cal-subject">Improve Braga</div>
                             </div>                           
+                            </a>
                         </div>
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>SEGUNDA</b>/17</h4>
@@ -76,26 +84,32 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Apresentação</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Sessão de Abertura</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">15h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker">PT Inovação</div>
                                 <div class="cal-subject">Data Center PT</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker">Microsoft</div>
                                 <div class="cal-subject">Windows Mobile</div>
                             </div>
+                            </a>
                             <div class="cal-details coffeebreak">
                                 <div class="cal-label">CoffeeBreak</div>
                             </div>
@@ -103,26 +117,32 @@ $(document).ready(function() {
                                 <div class="cal-hour">17h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker">CodAngel</div>
                                 <div class="cal-subject">Desenvolvimento para iOS</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Meetup</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Hackers and Founders Portugal</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">22h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#monday_link">
                             <div class="cal-event act-monday">
                                 <div class="cal-speaker">Comissão de festas</div>
                                 <div class="cal-subject">Jogos e Festa no BA Braga</div>
                             </div>
+                            </a>
                         </div>
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>TERÇA</b>/18</h4>
@@ -130,18 +150,22 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Discussão</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Reunião Geral da LEI</div>
                             </div>
+                            </a>    
                             <div class="cal-details">
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Concurso</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Time Trial Talks</div>
                             </div>
+                            </a>
                             <div class="cal-details coffeebreak">
                                 <div class="cal-label">CoffeeBreak</div>
                             </div>
@@ -149,34 +173,42 @@ $(document).ready(function() {
                                 <div class="cal-hour">17h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Rui Couto</div>
                                 <div class="cal-subject">Desenvolvimento Android</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Meetup</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Minho.RB</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">21h30</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Rally das Tascas</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">00h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#tuesday_link">
                             <div class="cal-event act-tuesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Festa no Bar Académico</div>
                             </div>
+                            </a>
                         </div>
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>QUARTA</b>/19</h4>
@@ -184,50 +216,52 @@ $(document).ready(function() {
                                 <div class="cal-hour">9h</div>
                                 <div class="cal-label">Divulgação</div>
                             </div>
+                            <a class="day_link" href="#wednesday_link">
                             <div class="cal-event act-wednesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">LEI RoadShow</div>
                             </div>
+                            </a>    
                             <div class="cal-details">
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Seminário</div>
                             </div>
+                            <a class="day_link" href="#wednesday_link">
                             <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Eng. António Murta, Eng. Carlos Oliveira e Prof. Nestor</div>
                                 <div class="cal-subject">Seminários à la LESI</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">15h30</div>
                                 <div class="cal-label">Social</div>
                             </div>
+                            <a class="day_link" href="#wednesday_link">
                             <div class="cal-event act-wednesday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Corrida Social no Campus de Gualtar</div>
                             </div>
-                            <div class="cal-details">
-                                <div class="cal-hour">19h</div>
-                                <div class="cal-label">Lounge</div>
-                            </div>
-                            <div class="cal-event act-wednesday">
-                                <div class="cal-speaker"></div>
-                                <div class="cal-subject">Final UMinho Cup</div>
-                            </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#wednesday_link">
                             <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Arraial da Semana da LEI</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">00h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#wednesday_link">
                             <div class="cal-event act-wednesday">
                                 <div class="cal-speaker">Comissão de Festas</div>
                                 <div class="cal-subject">Festa no Sardinha Biba</div>
                             </div>
+                            </a>
                         </div>
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>QUINTA</b>/20</h4>                            
@@ -235,18 +269,22 @@ $(document).ready(function() {
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
+                            <a class="day_link" href="#thursday_link">
                             <div class="cal-event act-thursday">
                                 <div class="cal-speaker">InMotion</div>
                                 <div class="cal-subject">Raspberry &amp; Arduino</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
+                            <a class="day_link" href="#thursday_link">
                             <div class="cal-event act-thursday">
                                 <div class="cal-speaker">Be Very Creative</div>
                                 <div class="cal-subject">Impressoras 3D</div>
                             </div>
+                            </a>
                             <div class="cal-details coffeebreak">
                                 <div class="cal-label">CoffeeBreak</div>
                             </div>                            
@@ -254,45 +292,55 @@ $(document).ready(function() {
                                 <div class="cal-hour">18h</div>
                                 <div class="cal-label">Palestra</div>
                             </div>
+                            <a class="day_link" href="#thursday_link">
                             <div class="cal-event act-thursday">
                                 <div class="cal-speaker">GroupBuddies</div>
                                 <div class="cal-subject">Desenvolvimento Angular.js</div>
                             </div>                            
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">22h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#thursday_link">
                             <div class="cal-event act-thursday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">CeSIUM Movies @ Dieci Bar</div>
                             </div>
+                            </a>
                         </div>
                         <div class="large-2 columns">
                             <h4 class="cal-day"><b>SEXTA</b>/21</h4>
                             <div class="cal-details">
-                                <div class="cal-hour">10h</div>
+                                <div class="cal-hour">11h</div>
                                 <div class="cal-label">Torneio</div>
                             </div>
+                            <a class="day_link" href="#friday_link">
                             <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Robocode</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">14h</div>
                                 <div class="cal-label">Apresentação</div>
                             </div>
+                            <a class="day_link" href="#friday_link">
                             <div class="cal-event act-friday">
                                 <div class="cal-speaker">CodAngel, Group Buddies, PT Inovação e Eurotux</div>
                                 <div class="cal-subject">Apresentações Empresas</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">16h</div>
                                 <div class="cal-label">Workshop</div>
                             </div>
+                            <a class="day_link" href="#friday_link">
                             <div class="cal-event act-friday">
                                 <div class="cal-speaker">CodAngel</div>
                                 <div class="cal-subject">Desenvolvimento Jogos com Cocus2D</div>
                             </div>
+                            </a>
                             <div class="cal-details coffeebreak">
                                 <div class="cal-label">CoffeeBreak</div>
                             </div>
@@ -300,23 +348,28 @@ $(document).ready(function() {
                                 <div class="cal-hour">18h</div>
                                 <div class="cal-label">Torneio</div>
                             </div>
+                            <a class="day_link" href="#friday_link">
                             <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Jogos Eletrónicos</div>
                             </div>
+                            </a>
                             <div class="cal-details">
                                 <div class="cal-hour">21h</div>
                                 <div class="cal-label">Lounge</div>
                             </div>
+                            <a class="day_link" href="#friday_link">
                             <div class="cal-event act-friday">
                                 <div class="cal-speaker"></div>
                                 <div class="cal-subject">Jantar Oficial e Encerramento da Semana da LEI</div>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="saturday orange">
+            </section>            
+                <section class="saturday orange">
+                <a id="saturday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>SÁBADO
                         <strong>/15</strong>
@@ -361,8 +414,9 @@ $(document).ready(function() {
 
                     </div>
                 </div>
-            </section>
+            </section>                        
             <section class="monday grey">
+                <a id="monday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>SEGUNDA-FEIRA
                         <strong>/17</strong>
@@ -459,8 +513,9 @@ $(document).ready(function() {
                     </div>
                 </div>
             </section>
-            <!--      Terça feira        -->
+            <!--      Terça feira        -->            
             <section class="tuesday orange">
+                <a id="tuesday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>TERÇA-FEIRA
                         <strong>/18</strong>
@@ -560,8 +615,9 @@ $(document).ready(function() {
                 </div>
             </section>
             <!--Fim de terça-feira-->
-            <!-- Quarta-Feira-->
+            <!-- Quarta-Feira-->            
             <section class="wednesday grey">
+                <a id="wednesday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>Quarta-FEIRA
                         <strong>/19</strong>
@@ -644,8 +700,9 @@ $(document).ready(function() {
                 </div>
             </section>
             <!--Fim da quarta-feira-->
-            <!--Quinta-feira-->
+            <!--Quinta-feira-->            
             <section class="Thursday orange">
+                <a id="thursday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>Quinta-FEIRA
                         <strong>/20</strong>
@@ -715,8 +772,9 @@ $(document).ready(function() {
             </section>
             <!--Fim de Quinta-Feira-->
 
-            <!-- Sexta-Feira-->
+            <!-- Sexta-Feira-->            
             <section class="friday grey">
+                <a id="friday_link" class="day_link day_link_section"></a>
                 <div class="row cal">
                     <h1>Sexta-FEIRA
                         <strong>/21</strong>
@@ -728,8 +786,7 @@ $(document).ready(function() {
                                     <div class="act-hour">11H</div>
                                     <div class="act-label">Torneio</div>
                                 </div>
-                                <h3>Robocode</h3>
-                                <h5></h5>
+                                <h3>Robocode</h3>                                
                                 <p>
                                     Robocode é um torneio, cujo objectivo é codificar um robô e derrotar os seus oponentes. Terás de escrever a inteligência do teu robô, programando as suas reações aos diversos acontecimentos de uma batalha.
                                 </p>
@@ -887,7 +944,6 @@ $(document).ready(function() {
                     </div>
                 </div>
             </section>
-
             </div>
         </div>
 </body>
