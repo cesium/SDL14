@@ -54,6 +54,20 @@ section.grey .activity .act-details{
   color: #333;
 }
 
+.act-space {
+  float: left;
+  margin-left: 4%;
+  font-size: 12px;
+}
+
+section.grey .act-space {
+  color: white;
+}
+
+section.orange .act-space {
+  color: darkslategrey;
+}
+
 .activity{
   font-weight: 100;
   padding: 15px;

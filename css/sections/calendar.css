@@ -37,6 +37,12 @@ section.calendar h1{
   font-size: 11px;
 }
 
+.cal-space{
+  float: right;
+  color: gray;
+  font-size: 11px;
+}
+
 .cal-speaker{
   font-size: 10px;
   font-weight: 700;
