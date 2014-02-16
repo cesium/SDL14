@@ -58,6 +58,7 @@ section.grey .activity .act-details{
   float: left;
   margin-left: 4%;
   font-size: 12px;
+  font-weight: bold;
 }
 
 section.grey .act-space {
